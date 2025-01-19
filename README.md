@@ -25,4 +25,4 @@ I have not been able to find anything past a 6 x 6 grid with the current script,
 
 I'm heartily accepting suggestions for ways to speed the script up, if you're really looking for a time sink with no obvious benefits. The code is virtually undocumented for an extra challenge. Currently it lazily generates every possible binary matrix with the minimum number of ones and checks each as it goes to see if it meets the "friendly square" rules.
 
-Thanks @mscroggs for the Advent calendar, and such an interesting puzzle!
+Thanks [@mscroggs](https://github.com/mscroggs) for the Advent calendar, and such an interesting puzzle!
