@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
 import numpy as np
-from sympy.utilities.iterables import multiset_permutations as msp
 from sympy import binomial
 from alive_progress import alive_bar, config_handler
 import time
+from mpermute import mperms as msp
 
 SEQUENCE = [0, 0, 2, 3, 8, 8, 10, 18, 18]
 config_handler.set_global(spinner=None, bar="smooth", length=5, refresh_secs=1)
@@ -65,5 +65,5 @@ def main(size):
     return matches
 
 
-n = 5
+n = 6
 print(f"\nTotal valid colourings for a {n}x{n} matrix: {main(n)}")
