@@ -24,7 +24,7 @@ This script bruteforces the total number of possible "colourings" for each minim
 
 I have not been able to find anything past a 6 x 6 grid with the current script, despite copious amounts of optimization. Grids from 2 x 2 to 4 x 4 took about a second each, 5 x 5 took around 13 seconds, and 6 x 6 took a whopping 47 minutes, at least on my poor little Surface Pro. Do note the irony of there being only 8 valid colourings out of the over 250 million the script checked.
 
-I'm heartily accepting suggestions for ways to speed the script up or clever strategies for cutting down the number of matrices it checks, if you're really looking for a time sink with no obvious benefits. Currently it lazily generates every possible binary matrix with the minimum number of ones and checks each as it goes to see if it meets the "friendly square" rules.
+I'm heartily accepting suggestions for ways to speed the script up or clever strategies for cutting down the number of matrices it checks, if you're really looking for a time sink with no obvious benefits. Currently it lazily generates every possible binary matrix with the minimum number of ones and checks each as it goes to see if it meets the "friendly squares" rules.
 
 Sadly, I don't think bruteforcing the 7 x 7 grid is remotely feasible using this method. The number of grids to check explodes so rapidly that my rough estimates say it would take 875 years with this script! Going beyond the 6 x 6 would require a completely different method, though what that method could be, I have no idea whatsoever
 
