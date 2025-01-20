@@ -4,6 +4,7 @@ An incredibly niche and literally useless foray into a fascinating puzzle posed 
 
 **Requirements:**
 - numpy
+- sympy
 - mpermute (install with `pip install git+https://github.com/m-stclair/mpermute.git`)
 - alive_progress
 
