@@ -26,7 +26,7 @@ I have not been able to find anything past a 6 x 6 grid with the current script,
 
 I'm heartily accepting suggestions for ways to speed the script up or clever strategies for cutting down the number of matrices it checks, if you're really looking for a time sink with no obvious benefits. Currently it lazily generates every possible binary matrix with the minimum number of ones and checks each as it goes to see if it meets the "friendly squares" rules.
 
-Sadly, I don't think bruteforcing the 7 x 7 grid is remotely feasible using this method. The number of grids to check explodes so rapidly that my rough estimates say it would take 875 years with this script! Going beyond the 6 x 6 would require a completely different method, though what that method could be, I have no idea whatsoever
+Sadly, I don't think bruteforcing the 7 x 7 grid is remotely feasible using this method. The number of grids to check explodes so rapidly that my rough estimates say it would take 875 years with this script. Going beyond the 6 x 6 would require a completely different method, though what that method could be, I have no idea whatsoever.
 
 Thanks [@mscroggs](https://github.com/mscroggs) for the Advent calendar, and such an interesting puzzle!
 
