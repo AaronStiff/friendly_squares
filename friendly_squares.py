@@ -20,7 +20,7 @@ def check_matrix(matrix, size):
     # All possible coordinate shifts to check neighbouring squares
     # Having (0,0) as the first shift checks the square itself first,
     # hopefully reducing checking time for coloured squares
-    shifts = {
+    shifts = [
         (0, 0),
         (-1, -1),
         (-1, 0),
@@ -30,7 +30,7 @@ def check_matrix(matrix, size):
         (1, -1),
         (1, 0),
         (1, 1),
-    }
+    ]
 
     # Initialize numpy iterator
     np_it = np.nditer(matrix, flags=["multi_index"])
