@@ -22,12 +22,12 @@ This script bruteforces the total number of possible "colourings" for each minim
 | 5 x 5    | 371        |
 | 6 x 6    | 8          |
 
-I have not been able to find anything past a 6 x 6 grid with the current script, despite copious amounts of optimization. Grids from 2 x 2 to 4 x 4 took about a second each, 5 x 5 took around 10 seconds, and 6 x 6 took a whopping 47 minutes, at least on my poor little Surface Pro. Do note the irony of there being only 8 valid colourings out of the over 250 million the script checked.
+I have not been able to find anything past a 6 x 6 grid with the current script, despite copious amounts of optimization. Grids from 2 x 2 to 4 x 4 took about a second each, 5 x 5 took around 13 seconds, and 6 x 6 took a whopping 47 minutes, at least on my poor little Surface Pro. Do note the irony of there being only 8 valid colourings out of the over 250 million the script checked.
 
 I'm heartily accepting suggestions for ways to speed the script up or clever strategies for cutting down the number of matrices it checks, if you're really looking for a time sink with no obvious benefits. Currently it lazily generates every possible binary matrix with the minimum number of ones and checks each as it goes to see if it meets the "friendly square" rules.
 
 Thanks [@mscroggs](https://github.com/mscroggs) for the Advent calendar, and such an interesting puzzle!
 
-Thanks [@m-stclair](https://github.com/m-stclair) for the super fast multiset permutations script!
+Thanks [@m-stclair](https://github.com/m-stclair) for the super fast multiset permutations script, which cut run time in half!
 
 Thanks [@rsalmei](https://github.com/rsalmei) for the cool and useful progress bar!
