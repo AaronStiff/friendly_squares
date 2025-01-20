@@ -3,7 +3,6 @@
 import numpy as np
 from sympy.utilities.iterables import multiset_permutations as msp
 from sympy import binomial
-from operator import add
 from alive_progress import alive_bar, config_handler
 import time
 
@@ -32,7 +31,7 @@ def check_matrix(matrix, size):
         neighbourhood = 0
         for s in shifts:
             if 0 <= i[0] + s[0] <= size - 1 and 0 <= i[1] + s[1] <= size - 1:
-                neighbourhood += matrix[*map(add, i, s)]
+                neighbourhood += matrix[i[0] + s[0], i[1] + s[1]]
             if neighbourhood >= 2:
                 break
         if neighbourhood < 2:
